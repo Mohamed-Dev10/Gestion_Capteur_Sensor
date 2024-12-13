@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "swagger", // Updated to launch Swagger by default
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,8 +20,8 @@
     "CapteurManagement": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "launchUrl": "swagger", // Updated to launch Swagger by default
+      "applicationUrl": "https://localhost:5001;http://localhost:5000", // Base URLs for your app
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

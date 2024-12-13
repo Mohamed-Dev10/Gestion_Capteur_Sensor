@@ -5,6 +5,9 @@
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)xunit.core\2.9.2\build\xunit.core.targets" Condition="Exists('$(NuGetPackageRoot)xunit.core\2.9.2\build\xunit.core.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.text.encodings.web\8.0.0\buildTransitive\netcoreapp2.0\System.Text.Encodings.Web.targets" Condition="Exists('$(NuGetPackageRoot)system.text.encodings.web\8.0.0\buildTransitive\netcoreapp2.0\System.Text.Encodings.Web.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.text.json\8.0.5\buildTransitive\netcoreapp2.0\System.Text.Json.targets" Condition="Exists('$(NuGetPackageRoot)system.text.json\8.0.5\buildTransitive\netcoreapp2.0\System.Text.Json.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.bcl.timeprovider\8.0.1\buildTransitive\netcoreapp2.0\Microsoft.Bcl.TimeProvider.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.bcl.timeprovider\8.0.1\buildTransitive\netcoreapp2.0\Microsoft.Bcl.TimeProvider.targets')" />
     <Import Project="$(NuGetPackageRoot)system.diagnostics.diagnosticsource\9.0.0\buildTransitive\netcoreapp2.0\System.Diagnostics.DiagnosticSource.targets" Condition="Exists('$(NuGetPackageRoot)system.diagnostics.diagnosticsource\9.0.0\buildTransitive\netcoreapp2.0\System.Diagnostics.DiagnosticSource.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\3.0.0\build\Microsoft.Extensions.ApiDescription.Server.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\3.0.0\build\Microsoft.Extensions.ApiDescription.Server.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.primitives\9.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Primitives.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.primitives\9.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Primitives.targets')" />
@@ -13,5 +16,6 @@
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\9.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\9.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Logging.Abstractions.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.caching.abstractions\9.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Caching.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.caching.abstractions\9.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Caching.Abstractions.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.caching.memory\9.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Caching.Memory.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.caching.memory\9.0.0\buildTransitive\netcoreapp2.0\Microsoft.Extensions.Caching.Memory.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.mvc.testing\3.1.0\build\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Testing.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.mvc.testing\3.1.0\build\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Testing.targets')" />
   </ImportGroup>
 </Project>
