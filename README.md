@@ -1,10 +1,15 @@
 
 - **Back-end** : Développé avec .NET Core, garantissant des performances élevées, une sécurité renforcée, et une extensibilité facile pour intégrer de nouvelles fonctionnalités.
+  
 - **Swagger** : Pour tester les Api (l'ajout/update/delete/getAll/getById).
+  
 - **Base de données** : Postgres est utilisé pour stocker et organiser efficacement les données des Sensors ,des transactions et des interactions.
--**Versionning de l'api
--**MemoryCache
- -**UnitTest:xUint & MOCK
+  
+-**Versionning de l'api**
+  
+-**MemoryCache**
+  
+ -**UnitTest:xUint & MOCK**
 
 
 ## Architecture
