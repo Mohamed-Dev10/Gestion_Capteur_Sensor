@@ -41,7 +41,7 @@ Les tests unitaires ont été implémentés en utilisant **xUnit** et **Moq** po
 ## Versioning de l'API  
 Un mécanisme de versioning a été mis en place pour gérer plusieurs versions de l'API. Cela garantit une compatibilité ascendante tout en permettant des améliorations sans perturber les clients existants.  
 
-<img src="Captures/api_versioning.PNG" alt="API Versioning Swagger" width="600">  
+<img src="captures Sensor/api_versioning.PNG" alt="API Versioning Swagger" width="600">  
 
 ---
 
@@ -59,7 +59,7 @@ Des messages d’erreur personnalisés ont été ajoutés pour améliorer l'exp�
 ## Mise à Jour de la Base de Données  
 Les migrations permettent de synchroniser les modèles de données avec la base de données **Postgres**.  
 
-<img src="Captures/before-update.PNG" alt="Database Migration" width="600">  
+<img src="captures Sensor/before-update.PNG" alt="Database Migration" width="600">  
 
 
 
